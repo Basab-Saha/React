@@ -24,7 +24,7 @@ const currTime=today.toLocaleTimeString();
 
 ReactDOM.render(
   <>
-  <h1>Basab's Mini Calendar</h1>
+  <h1>Basab's  Calendar</h1>
   <br></br>
     <h1>{`Today's Date is :  ${day}/${month}/${year}`}</h1>
     <h2>{`Current time is: ${hours}:${mins} PM`}</h2>
