@@ -34,8 +34,11 @@ ReactDOM.render(
   height={200} width={250}/>
 
    
-   <img src={rhinoimg} 
+   <a href="https://www.google.com" >
+     <img src={rhinoimg} 
   height={200} width={250}/>
+  </a>
+  
   </>,
   
   
