@@ -1,3 +1,7 @@
+//Here we showed how to style react components using css style
+
+//how to import index.css externally to style index.js
+
 import React from 'react'
 import  ReactDOM  from 'react-dom'
 
