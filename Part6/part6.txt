@@ -1,1 +1,3 @@
+Here we showed how to style react components using css style
 
+how to import index.css externally to style index.js
