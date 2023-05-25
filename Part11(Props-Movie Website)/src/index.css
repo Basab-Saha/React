@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/6f/25/ad/6f25ad5d47a89e05d0db5f4c8cbe0271.jpg");
+}
+
+.box1{
+    display: flex;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+
+.box2{
+    transition: transform .2s;
+  }
+  
+  .box2:hover {
+    transform: scale(1.2);
+  }
