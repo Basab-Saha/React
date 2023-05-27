@@ -2,6 +2,7 @@ import  React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 
+//description: Both part12(Props-maps) and Part 13(useState)'s concept is used7
 const carData = [
     { name: "Toyota Camry", price: 25000 },
     { name: "Honda Civic", price: 22000 },
