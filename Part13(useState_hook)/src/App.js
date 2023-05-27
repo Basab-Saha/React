@@ -30,7 +30,7 @@ const [myName , setmyName]=useState('Hello Goodmorning Leader')
         console.log(val) */
 
         setmyName('Whats your plan tonight?')
-
+        //setmyName("x")---->myName="x"
 
     }
 
