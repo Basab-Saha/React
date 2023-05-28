@@ -1,0 +1,37 @@
+Hooks:-
+Hooks are special react functions
+Hook diye react er feature gulo ke dhora / connect kora jai
+
+    useState:- jokhoni website kono component er state change korte hobe..ba dynamic content
+    show korte hobe tokhoni amra useState use kori
+
+    like ei button click korle text ta change hoa jabe...so ekhane text er state change korchi...
+    we will useState hook--> to hook the state of the text and change it when button is pressed
+
+in old days jokhon sobai class based components use korto tokhon state change korte hole this.state eisob use
+korte hoto which was complex.....
+
+but functional components a this.state , constructor use korte hoi na...simply useState hook use korei
+component er state change kora jai
+
+ebar tumi vabte paro state change korar dorkar hole ami to js diyei onClick kore value change korte pari..
+but seta te component er value change hoto html a ....component er state change hoto na (karon amra useSTate kori ni)
+tai react vabbe component er state change hoi ni so component er kono updation hoi ni..so eke rerender korbo na...
+React tokhoni kono component ke rerender kore jokhon ota te kono change ase..ar change tokhoni ase jokhon 
+component er state change hoi...ar state change sudhu js onClick/onSubmit diye hoi na..
+
+useState hooks are used-->
+a. change the state of component
+b. API calling 
+c. Handling Async promises
+jokhoni kichu dynamically change korbo tokhoni useState lagbe 
+
+Hooks ese gache bole ebar amader classBased components er dorkar pore na...
+
+Flow of implementing useSTate hook:-
+
+a. je button a click korle kono component er state change hobe sei button a onClick={} dao
+ jodi name change koro then onClick={changeName} likhe dao...jodi color change korte hoi onClick={changeColor}
+onClick fxn er nam agei likhe nao..
+
+b.
