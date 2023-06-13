@@ -29,9 +29,18 @@ jokhoni kichu dynamically change korbo tokhoni useState lagbe
 Hooks ese gache bole ebar amader classBased components er dorkar pore na...
 
 Flow of implementing useSTate hook:-
+a. jeta dynamically change korte chao..ex:- text jodi hoi tahole ota ke age JS (dynamic) {value} banao 
 
-a. je button a click korle kono component er state change hobe sei button a onClick={} dao
+b. je button a click korle kono component er state change hobe sei button a onClick={} dao
  jodi name change koro then onClick={changeName} likhe dao...jodi color change korte hoi onClick={changeColor}
 onClick fxn er nam agei likhe nao..
 
-b.
+c.component er state mane jeta change hobe (like ekhane holo text ta -> value ) tar initial state set kor
+-->  const[value , setValue ] = useState(' your initial value you wanna put ');
+
+d.changeName function define koro...je button click korle chnageName function call hole ki hobe??
+like value r content tai change kore debo...
+
+function changeName(){
+ setValue(' the updated text value u wanna put');
+ }
