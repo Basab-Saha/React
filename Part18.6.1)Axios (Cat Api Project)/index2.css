@@ -1,0 +1,84 @@
+body{
+    
+    padding: 50px;
+    margin-right: 50px;
+    background-color: #99DBF5;
+    background-image: url('https://th.bing.com/th/id/R.b992eee59ad48060fba6dc98b8539c86?rik=En3iIvqc6c1vEQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f19TJlpC.jpg&ehk=hxgfzW6EBvuhpZY8iPOs2e%2bogbbLrxXUt9%2bMBuwbZ4Y%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.userbar{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.buttonBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card{
+    border: 3px solid black;
+}
+
+.btn{
+    background-color: #F2BE22;
+}
+
+/*most important */
+.catbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .catcard{
+    margin: 20px;
+  }
+  
+  .user-card {
+    margin: 10px;
+    border: 2px solid black;
+  }
+  .pokemon-card {
+    margin: 5px;
+    border: 5px solid black;
+  }
+
+
+/* body{
+    padding: 100px;
+}
+
+.inp{
+    margin: 20px;
+}
+
+.formBox{
+    background-color: yellow;
+    width: fit-content;
+    border: 3px solid black;
+}
+
+.loginInfo{
+    background-color: darkcyan;
+    margin-top: 30px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.infoBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnCustom{
+    width: 110px;
+    margin-top: 30px;
+    border-radius: 25px;
+} */
