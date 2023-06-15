@@ -1,0 +1,80 @@
+body{
+    
+    padding: 50px;
+    margin-right: 50px;
+    background-color: #99DBF5;
+}
+
+.userbar{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.buttonBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card{
+    border: 3px solid black;
+}
+
+.btn{
+    background-color: #F2BE22;
+}
+
+/*most important */
+.userbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  
+  .user-card {
+    margin: 10px;
+    border: 2px solid black;
+  }
+  .pokemon-card {
+    margin: 5px;
+    border: 5px solid black;
+  }
+
+
+/* body{
+    padding: 100px;
+}
+
+.inp{
+    margin: 20px;
+}
+
+.formBox{
+    background-color: yellow;
+    width: fit-content;
+    border: 3px solid black;
+}
+
+.loginInfo{
+    background-color: darkcyan;
+    margin-top: 30px;
+    height: 50px;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.infoBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnCustom{
+    width: 110px;
+    margin-top: 30px;
+    border-radius: 25px;
+} */
